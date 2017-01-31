@@ -10,6 +10,7 @@ func main() {
 	fmt.Println("Hello, World")
 	
 	a, b := swap("Hello", "World")
-	a = ":) øæå TEST"
 	fmt.Println(a, b)
+	a = ":) øæå TEST"
+	fmt.Println(a)
 }
