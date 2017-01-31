@@ -14,12 +14,12 @@ x, err := strconv.ParseFloat(ArgumentTwo, 64)
 fmt.Print("Feil kode: ")
 fmt.Println(err)
 
-if logMethod == "log10" {
+if logMethod == "10" {
 b := math.Log10(x)
 fmt.Print("Value: ")
 fmt.Println(b)
 }
-if logMethod == "log2" {
+if logMethod == "2" {
 b := math.Log2(x)
 fmt.Print("Value: ")
 fmt.Println(b)
