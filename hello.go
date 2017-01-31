@@ -22,6 +22,12 @@ func main() {
 	fmt.Println(a)
 	fmt.Println("My favorite number is", rand.Intn(10))
 	fmt.Println("532 + 18 = ", add(532, 18))
+	
+	sum := 0
+	for index := 0; index < 10; index++ {
+		sum += 1
+	}
+	fmt.Println(sum)
 }
 
 
