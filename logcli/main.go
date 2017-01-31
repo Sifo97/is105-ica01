@@ -1,8 +1,11 @@
 package main
-import "fmt"
-import "os"
-import "math"
-import "strconv"
+import (
+	"fmt"
+	"os"
+	"math"
+	"strconv"
+)
+
 func main() {
 // Ta imot argument 1
 ArgumentOne := os.Args[1] //
