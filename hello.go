@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+func swap(x, y string) (string, string) {
+	return y, x
+}
+
 func main() {
-	fmt.Println("Hello, ??")
+	fmt.Println("Hello, World")
+	
+	a, b := swap("Hello", "World")
+	fmt.Println(a, b)
 }
