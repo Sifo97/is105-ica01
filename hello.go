@@ -1,4 +1,4 @@
-package main
+﻿package main
 
 import "fmt"
 import "math/rand"
@@ -8,6 +8,8 @@ func swap(x, y string) (string, string) {
 }
 
 func main() {
+	fmt.Println("Code below this line:")
+	fmt.Println("---------------------")
 	fmt.Println("Hello, World")
 	
 	a, b := swap("Hello", "World")
