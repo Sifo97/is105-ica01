@@ -2,7 +2,7 @@ package main
 import "fmt"
 
 func main() {
-fmt.Println(CalcLog(233))
+	fmt.Println(CalcLog(233))
 }
 
 
