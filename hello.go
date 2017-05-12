@@ -20,6 +20,7 @@ func main() {
 	fmt.Println(a, b)
 	a = ":) øæå TEST"
 	fmt.Println(a)
+	fmt.Println("Test 1 2 3, 3 2 1")
 	fmt.Println("My favorite number is", rand.Intn(10))
 	fmt.Println("532 + 18 = ", add(532, 18))
 	
