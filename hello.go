@@ -15,7 +15,7 @@ func main() {
 	fmt.Println("Code below this line:")
 	fmt.Println("---------------------")
 	fmt.Println("Hello, World")
-	
+	fmt.Println("Commita 90% til alt annet, men glemte å commite til denne fila. Så da må jeg gjøre det.")
 	a, b := swap("Hello", "World")
 	fmt.Println(a, b)
 	a = ":) øæå TEST"
